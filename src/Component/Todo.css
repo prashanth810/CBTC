@@ -10,7 +10,6 @@
     align-items: center;
     margin: 0px auto;
     margin-top: 100px;
-    font-family: 'montserrat';
 }
 
 .todo-form:hover {
@@ -20,6 +19,7 @@
 
 .todo-form .todo-heading {
     margin: 30px 0px 10px 0px;
+    font-family: monospace;
 }
 
 .todo-form .todo-div {
@@ -69,6 +69,8 @@
 .todo_list .todo_sno {
     width: 150px;
     padding: 10px;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .todo-table .todo_list2 .todo-delete {
