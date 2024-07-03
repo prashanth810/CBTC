@@ -62,6 +62,7 @@ const Todolist = () => {
       </form>
 
       <div className="todo_list">
+        <h2 className="dailytasks"> Daily - Task's </h2>
         <table className="todo-table">
           <tr className="todo-row">
             <th className="todo_sno"> S.no </th>
@@ -96,6 +97,7 @@ const Todolist = () => {
       {/* complete tasks */}
 
       <div className="todo_list">
+        <h2 className="completedtasks"> Completed - Task's </h2>
         <table className="todo-table">
           <tr className="todo-row">
             <th className="todo_sno"> S.no </th>
