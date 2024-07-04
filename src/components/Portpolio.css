@@ -1,0 +1,277 @@
+.portfolio {
+    background-color: #081c29;
+}
+
+.portfolio .container_nav {
+    width: 90%;
+}
+
+.main .para1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.myimages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myimages .myportfolio-image {
+    border-radius: 50%;
+    width: 58%;
+}
+
+.homeicons {
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+
+}
+
+.icons_homes {
+    margin-right: 6px;
+}
+
+.icons_home {
+    margin: 0px 6px;
+}
+
+.homeicons:hover {
+    background-color: #081b29;
+    columns: #0ef;
+    box-shadow: 0px 0px 20px #0ef;
+}
+
+.aboutmebtn {
+    background-color: #0ef;
+    padding: 10px 20px;
+    border: 1px solid #0ef;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.aboutmebtn:hover {
+    color: #0ef;
+    background-color: #081b29;
+    box-shadow: 0px 0px 20px #0ef;
+}
+
+.main .role {
+    padding: 10px 0px;
+}
+
+.main .role_header {
+    padding: 40px 0px 10px 0px;
+}
+
+.main .role_description {
+    padding: 15px 0px;
+}
+
+.main .role .text {
+    color: #0ef;
+}
+
+.nav-barlogo {
+    box-shadow: 0px 4px 15px -2px #0ef;
+}
+
+.main2 .about_me {
+    padding: 40px 0px 0px 0px;
+}
+
+.main2 .me_about {
+    color: #0ef;
+}
+
+.main2 .about-me {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.main2 .ima_developer {
+    padding: 5px 0px 16px 0px;
+    font-size: 24px;
+}
+
+.main2 .aboutme_paras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main2 .aboutimage {
+    width: 58%;
+    border-radius: 50%;
+}
+
+.aboutme_para .aboutme_para_description {
+    text-align: justify;
+}
+
+.main3 {
+    padding: 50px 0px 50px 0px;
+}
+
+.main3 .my_services {
+    padding: 70px 0px 48px 0px;
+}
+
+.main3 .cards_row .card {
+    width: 20rem;
+    background: transparent;
+    color: white;
+    text-align: justify;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    padding: 20px
+}
+
+.main3 .cards_row .card:hover {
+    background-color: #ff004f;
+    transform: translateY(-20px);
+    transition: 0.4s;
+    box-shadow: 0px 0px 20px 0px #0ef;
+}
+
+.main3 .web_designer-icon {
+    padding: 0px 16px;
+    font-size: 64px;
+}
+
+.main3 .cards_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.main3 .readmore_btn {
+    border: 1px solid #0ef;
+    border-radius: 10px;
+}
+
+.main4 {
+    padding: 60px 0px 0px 0px;
+}
+
+.main4 .protfolio_subhead {
+    padding: 20px 0px 40px 0px;
+}
+
+.main4 .card {
+    border: 4px solid #0ef;
+    border-radius: 20px;
+}
+
+.main4 .card .card_image img {
+    border-radius: 20px 20px 0px 0px;
+    padding: 1px 4px;
+    width: 98%;
+    height: 340px;
+}
+
+.main4 .portfolio_subheading {
+    font-size: 18px;
+}
+
+.main4 .card:hover {
+    transform: translateY(-20px);
+    transition: 0.6s;
+    border: 1px solid #ff004f;
+    box-shadow: 0px 0px 20px 3px #0ef;
+}
+
+/* contact forms */
+
+.contact_form {
+    padding: 60px 0px 20px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.contact_form .contactsecondhalf .contactform_inputs {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #0ef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contactform_textarea .textarea_contact {
+    border: 2px solid #0ef;
+    border-radius: 10px;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.contactsecondhalf {
+    width: 100%;
+}
+
+.contactform_btn .contact_btn {
+    border: 2px solid #0ef;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 20px 0px;
+    width: 100%;
+    background-color: #0ef;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contactform_btn .contact_btn:hover {
+    box-shadow: 0px 0px 12px 1px #0ef;
+    background-color: #081b29;
+    color: white;
+}
+
+.main .container,
+.main2 .container,
+.main4 .container {
+    width: 90%;
+}
+
+.main .main_name {
+    font-size: 28px;
+}
+
+.main .role {
+    font-size: 28px;
+}
+
+.my_services .my_service,
+.protfolio_mainhead .protfolio_subhead {
+    font-size: 50px;
+    text-align: center;
+}
+
+.card_description {
+    padding: 10px 0px 20px 0px;
+}
+
+.contact_headings_row {
+    border-top: 1px solid #0ef;
+    width: 100%;
+}

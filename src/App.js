@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Todolist from "./Component/Todolist";
+import Portpolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <Todolist />
-    </div>
+    <>
+      <Portpolio />
+    </>
   );
 }
 
