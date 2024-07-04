@@ -44,7 +44,7 @@ const Todolist = () => {
   const completedtask = status.filter((item) => item.completed);
 
   return (
-    <div>
+    <div className="main">
       <form className="todo-form">
         <h2 className="todo-heading"> Todo - List </h2>
         <div className="todo-div">
