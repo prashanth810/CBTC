@@ -6,6 +6,7 @@ import {
   faWhatsapp,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Icons = () => {
   const phoneNumber = "+91 8106124493 "; // Replace with your phone number
@@ -42,7 +43,6 @@ const Icons = () => {
           style={{ color: "#63E6BE" }}
           onClick={handleClick}
         />
-        {/* </a> */}
 
         <a href="https://www.linkedin.com/feed/" target="blank">
           <FontAwesomeIcon
@@ -53,9 +53,9 @@ const Icons = () => {
         </a>
       </div>
       <div>
-        <a href="#about">
+        <Link to="/aboutme-page">
           <button className="aboutmebtn"> More About Me </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

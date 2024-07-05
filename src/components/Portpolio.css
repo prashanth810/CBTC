@@ -236,9 +236,18 @@
     margin: 20px 0px;
     width: 100%;
     background-color: #0ef;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input,
+textarea {
+    color: white;
 }
 
 .contactform_btn .contact_btn:hover {
@@ -271,7 +280,15 @@
     padding: 10px 0px 20px 0px;
 }
 
-.contact_headings_row {
-    border-top: 1px solid #0ef;
-    width: 100%;
+.contact_form .container-fluid:hover {
+    box-shadow: 0px -2px 17px #0ef;
+    transition: 1s;
+}
+
+.portfolio .nav-link:hover {
+    box-shadow: 0px 0px 16px 0px #0ef;
+    border: none;
+    background-color: transparent;
+    transition: 0.6s;
+    border-radius: 10px;
 }

@@ -1,11 +1,9 @@
-import React, { useEffect, useRef } from "react";
-import "./Portpolio.css";
-import Icons from "./Icons";
+import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import "animate.css";
+import Icons from "./Icons";
 import myimage from "../images/myimage2.jpg";
 
-// web design
+//images
 
 import Parcelyogi from "../images/Parcelyogi.png";
 import Educa from "../images/Educa.png";
@@ -21,13 +19,9 @@ import formvalidation from "../images/form validations.png";
 //recat developing
 
 import makingcircles from "../images/Making circles on browser.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAppStore } from "@fortawesome/free-brands-svg-icons";
-import { faCode, faCrop } from "@fortawesome/free-solid-svg-icons";
 import Contactform from "./Contactfrom";
 
-const Portpolio = () => {
+const Aboutme = () => {
   const typedElement = useRef(null);
 
   useEffect(() => {
@@ -50,10 +44,7 @@ const Portpolio = () => {
     <div className="text-white portfolio">
       <nav className="navbar navbar-expand-lg p-4 nav-barlogo">
         <div className="container container_nav">
-          <a
-            className="animate__animated animate__bounceInLeft animate__slower navbar-brand text-white"
-            href="#"
-          >
+          <a className="navbar-brand text-white" href="#">
             <img
               src="https://cdn-icons-png.freepik.com/512/1351/1351514.png"
               width="80px"
@@ -71,7 +62,7 @@ const Portpolio = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="animate__animated animate__lightSpeedInRight animate__slower navbar-nav ms-auto">
+            <div className="navbar-nav ms-auto">
               <a
                 className="nav-link active text-white mx-4"
                 aria-current="page"
@@ -101,17 +92,15 @@ const Portpolio = () => {
         <div className="container">
           <div className="row" id="home">
             <div className="para1 col-md-6 col-sm-12 col-lg-6">
-              <div className="animate__animated  animate__fadeInLeft animate__slower">
+              <div className="main_home">
                 <h3 className="role_header main_name">Hello, It's Me</h3>
-                <h1 className="animate__animated animate__backInLeft main_name">
-                  Prashanth
-                </h1>
+                <h1 className="main_name">Prashanth</h1>
               </div>
               <h3 className="role">
                 And I'm a <span className="text" ref={typedElement}></span>
               </h3>
 
-              <p className="animate__animated animate__bounceInRight animate__slower role_description">
+              <p className="role_description">
                 I'm a Web Designer with extensive experience for 6 months
                 <br />
                 expertise is to create web site desing, frontend design, Web
@@ -122,92 +111,8 @@ const Portpolio = () => {
                 <Icons />
               </div>
             </div>
-            <div className="animate__animated animate__bounceInRight animate__slower col-md-6 col-sm-12 col-lg-6 myimages">
+            <div className="col-md-6 col-sm-12 col-lg-6 myimages">
               <img src={myimage} width="100%" className="myportfolio-image" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="main2">
-        <div className="container">
-          <div className="row about_me" id="about">
-            <div className="col-md-6 col-sm-12 col-lg-6 text-start animate__animated  animate__bounceInLeft animate__slower">
-              <img src={myimage} width="100%" className="aboutimage" />
-            </div>
-            <div className="col-md-6 col-sm-12 col-lg-6 aboutme_paras animate__animated  animate__bounceInRight animate__slower">
-              <div className="aboutme">
-                <h2 className="text-start about-me">
-                  About <span className="me_about"> Me </span>
-                </h2>
-              </div>
-              <div className="aboutme_heading text-start">
-                <h4 className="ima_developer">I'm Web Developer (React js)</h4>
-              </div>
-              <div className="aboutme_para">
-                <p className="aboutme_para_description">
-                  I'm a Front-end Designer, Front-end Developer from Hyderabad
-                  in Front-end developement. I enjoyed to maing the web designs
-                  and web developement using front-end and solving the simple
-                  and complex problems in front-end. I maked simple and
-                  intuitive designs Using front-end.
-                </p>
-              </div>
-              <div className="icons_portfolio text-start">
-                <Icons />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="main3">
-        <div className="container">
-          <div className="my_services" id="services">
-            <h1 className="my_service"> My Services </h1>
-          </div>
-          <div className="row cards_row">
-            <div className="card">
-              <div className="web_designer-icon">
-                <FontAwesomeIcon icon={faCrop} style={{ color: "#63E6BE" }} />
-              </div>
-              <div className="card-body">
-                <h5 className="card-titl fs-3"> Web </h5>
-                <h5 className="card-title fs-2"> Designer </h5>
-                <p className="card-text">Some quick example text...</p>
-                <div>
-                  <button className="aboutmebtn"> More About Me </button>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="web_designer-icon">
-                <FontAwesomeIcon icon={faCode} style={{ color: "#63E6BE" }} />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title fs-3"> Web </h5>
-                <h5 className="card-title fs-2"> Developer </h5>
-                <p className="card-text">Some quick example text...</p>
-                <div>
-                  <button className="aboutmebtn"> More About Me </button>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="web_designer-icon">
-                <FontAwesomeIcon
-                  icon={faAppStore}
-                  style={{ color: "#63E6BE" }}
-                />
-              </div>
-              <div className="card-body">
-                <h5 className="card-title fs-3"> React-native </h5>
-                <h5 className="card-title fs-2"> Developer </h5>
-                <p className="card-text">Some quick example text...</p>
-                <div>
-                  <button className="aboutmebtn"> More About Me </button>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -357,11 +262,11 @@ const Portpolio = () => {
           </div>
         </div>
       </div>
-      <div className="contact_forms">
+      <div className="container-fluid">
         <Contactform />
       </div>
     </div>
   );
 };
 
-export default Portpolio;
+export default Aboutme;
