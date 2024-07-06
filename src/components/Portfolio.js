@@ -26,6 +26,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAppStore } from "@fortawesome/free-brands-svg-icons";
 import { faCode, faCrop } from "@fortawesome/free-solid-svg-icons";
 import Contactform from "./Contactfrom";
+import { Link } from "react-router-dom";
 
 const Portpolio = () => {
   const typedElement = useRef(null);
@@ -97,11 +98,11 @@ const Portpolio = () => {
         </div>
       </nav>
 
-      <div className="main  p-5">
+      <div className="main p-5">
         <div className="container">
           <div className="row" id="home">
-            <div className="para1 col-md-6 col-sm-12 col-lg-6">
-              <div className="animate__animated  animate__fadeInLeft animate__slower">
+            <div className="col-md-6 col-sm-12 col-lg-6 order-2 order-md-1">
+              <div className="animate__animated animate__fadeInLeft animate__slower">
                 <h3 className="role_header main_name">Hello, It's Me</h3>
                 <h1 className="animate__animated animate__backInLeft main_name">
                   Prashanth
@@ -110,19 +111,17 @@ const Portpolio = () => {
               <h3 className="role">
                 And I'm a <span className="text" ref={typedElement}></span>
               </h3>
-
               <p className="animate__animated animate__bounceInRight animate__slower role_description">
                 I'm a Web Designer with extensive experience for 6 months
                 <br />
-                expertise is to create web site desing, frontend design, Web
+                expertise is to create web site design, frontend design, Web
                 Developing also and More...
               </p>
-
               <div className="col-md-6">
                 <Icons />
               </div>
             </div>
-            <div className="animate__animated animate__bounceInRight animate__slower col-md-6 col-sm-12 col-lg-6 myimages">
+            <div className="animate__animated animate__bounceInRight animate__slower col-md-6 col-sm-12 col-lg-6 myimages order-1 order-md-2">
               <img src={myimage} width="100%" className="myportfolio-image" />
             </div>
           </div>
@@ -132,7 +131,7 @@ const Portpolio = () => {
       <div className="main2">
         <div className="container">
           <div className="row about_me" id="about">
-            <div className="col-md-6 col-sm-12 col-lg-6 text-start animate__animated  animate__bounceInLeft animate__slower">
+            <div className="col-md-6 col-sm-12 col-lg-6 text-center pb-4 animate__animated  animate__bounceInLeft animate__slower">
               <img src={myimage} width="100%" className="aboutimage" />
             </div>
             <div className="col-md-6 col-sm-12 col-lg-6 aboutme_paras animate__animated  animate__bounceInRight animate__slower">
@@ -176,7 +175,9 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Designer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <button className="aboutmebtn"> More About Me </button>
+                  <Link to="/aboutme-page">
+                    <button className="aboutmebtn"> More About Me </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -189,7 +190,9 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Developer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <button className="aboutmebtn"> More About Me </button>
+                  <Link to="/aboutme-page">
+                    <button className="aboutmebtn"> More About Me </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -205,7 +208,9 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Developer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <button className="aboutmebtn"> More About Me </button>
+                  <Link to="/aboutme-page">
+                    <button className="aboutmebtn"> More About Me </button>
+                  </Link>
                 </div>
               </div>
             </div>

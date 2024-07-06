@@ -1,6 +1,5 @@
 import React from "react";
 import Icons from "./Icons";
-// import Footericons from "./Footericons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneVolume, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +13,7 @@ const Contactform = () => {
               <div className="col-md-6 colsm-12 col-lg-6 ">
                 <div className="contact_headings">
                   <h2 className="fs-1 py-5">
-                    {/* Contact <span style={{ color: "#0ef" }}>Me</span> */}
+                    Contact <span style={{ color: "#0ef" }}>Me</span>
                   </h2>
                 </div>
                 <div className="contactform_body pt-4">
@@ -53,12 +52,7 @@ const Contactform = () => {
               </div>
               <div className="col-md-6 colsm-12 col-lg-6">
                 <div className="contact_headings">
-                  <h2 className="fs-1 py-5">
-                    Contact
-                    <span className="me_about" style={{ color: "#0ef" }}>
-                      Me
-                    </span>
-                  </h2>
+                  <h2 className="fs-1 py-5"></h2>
                 </div>
                 <div className="col-md-6 contactsecondhalf">
                   <input

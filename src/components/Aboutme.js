@@ -88,30 +88,30 @@ const Aboutme = () => {
         </div>
       </nav>
 
-      <div className="main  p-5">
+      <div className="main p-5">
         <div className="container">
           <div className="row" id="home">
-            <div className="para1 col-md-6 col-sm-12 col-lg-6">
-              <div className="main_home">
+            <div className="col-md-6 col-sm-12 col-lg-6 order-2 order-md-1">
+              <div className="animate__animated animate__fadeInLeft animate__slower">
                 <h3 className="role_header main_name">Hello, It's Me</h3>
-                <h1 className="main_name">Prashanth</h1>
+                <h1 className="animate__animated animate__backInLeft main_name">
+                  Prashanth
+                </h1>
               </div>
               <h3 className="role">
                 And I'm a <span className="text" ref={typedElement}></span>
               </h3>
-
-              <p className="role_description">
+              <p className="animate__animated animate__bounceInRight animate__slower role_description">
                 I'm a Web Designer with extensive experience for 6 months
                 <br />
-                expertise is to create web site desing, frontend design, Web
+                expertise is to create web site design, frontend design, Web
                 Developing also and More...
               </p>
-
               <div className="col-md-6">
                 <Icons />
               </div>
             </div>
-            <div className="col-md-6 col-sm-12 col-lg-6 myimages">
+            <div className="animate__animated animate__bounceInRight animate__slower col-md-6 col-sm-12 col-lg-6 myimages order-1 order-md-2">
               <img src={myimage} width="100%" className="myportfolio-image" />
             </div>
           </div>

@@ -9,7 +9,7 @@ import {
 import { Link } from "react-router-dom";
 
 const Icons = () => {
-  const phoneNumber = "+91 8106124493 "; // Replace with your phone number
+  const phoneNumber = "+91 8106124493 ";
   const message = "Hello, I would like to inquire about your services.";
 
   const handleClick = () => {
@@ -36,7 +36,7 @@ const Icons = () => {
             style={{ color: "#63E6BE" }}
           />
         </a>
-        {/* <a href="+91-8106124493" target="blank"> */}
+
         <FontAwesomeIcon
           className="homeicons icons_home"
           icon={faWhatsapp}
