@@ -74,17 +74,17 @@ const Portpolio = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="animate__animated animate__lightSpeedInRight animate__slower navbar-nav ms-auto">
               <a
-                className="nav-link active text-white mx-4"
+                className="nav-link active text-white mx-3"
                 aria-current="page"
                 href="#home"
               >
                 Home
               </a>
-              <a className="nav-link text-white mx-4" href="#about">
+              <a className="nav-link text-white mx-3" href="#about">
                 About
               </a>
 
-              <a className="nav-link text-white mx-4" href="#services">
+              <a className="nav-link text-white mx-3" href="#services">
                 Services
               </a>
               <a className="nav-link text-white mx-3" href="#Portfolio">
@@ -93,6 +93,21 @@ const Portpolio = () => {
               <a className="nav-link text-white " href="#contactform">
                 Contact Me
               </a>
+              <Link to="/todo-list" style={{ textDecoration: "none" }}>
+                <a className="nav-link text-white mx-3" href="#contactform">
+                  Todo-List
+                </a>
+              </Link>
+              <Link to="/ecommerce_page" style={{ textDecoration: "none" }}>
+                <a className="nav-link text-white mx-2" href="#contactform">
+                  E-commerce
+                </a>
+              </Link>
+              <Link to="/wether" style={{ textDecoration: "none" }}>
+                <a className="nav-link text-white mx-2" href="#contactform">
+                  Wether-Application
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -131,7 +146,7 @@ const Portpolio = () => {
       <div className="main2">
         <div className="container">
           <div className="row about_me" id="about">
-            <div className="col-md-6 col-sm-12 col-lg-6 text-center pb-4 animate__animated  animate__bounceInLeft animate__slower">
+            <div className="col-md-6 col-sm-12 col-lg-6 text-start animate__animated  animate__bounceInLeft animate__slower">
               <img src={myimage} width="100%" className="aboutimage" />
             </div>
             <div className="col-md-6 col-sm-12 col-lg-6 aboutme_paras animate__animated  animate__bounceInRight animate__slower">
@@ -175,9 +190,7 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Designer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <Link to="/aboutme-page">
-                    <button className="aboutmebtn"> More About Me </button>
-                  </Link>
+                  <button className="aboutmebtn"> More About Me </button>
                 </div>
               </div>
             </div>
@@ -190,9 +203,7 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Developer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <Link to="/aboutme-page">
-                    <button className="aboutmebtn"> More About Me </button>
-                  </Link>
+                  <button className="aboutmebtn"> More About Me </button>
                 </div>
               </div>
             </div>
@@ -208,9 +219,7 @@ const Portpolio = () => {
                 <h5 className="card-title fs-2"> Developer </h5>
                 <p className="card-text">Some quick example text...</p>
                 <div>
-                  <Link to="/aboutme-page">
-                    <button className="aboutmebtn"> More About Me </button>
-                  </Link>
+                  <button className="aboutmebtn"> More About Me </button>
                 </div>
               </div>
             </div>

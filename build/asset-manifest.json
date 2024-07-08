@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.77368bbc.css",
-    "main.js": "/static/js/main.f290f6b7.js",
+    "main.css": "/static/css/main.f9b41fa4.css",
+    "main.js": "/static/js/main.7703fbf7.js",
     "static/js/453.612510cc.chunk.js": "/static/js/453.612510cc.chunk.js",
     "static/media/Old house.png": "/static/media/Old house.b44ae615d66277de3edb.png",
     "static/media/Educa.png": "/static/media/Educa.48c350b5ff0d2c83bdb8.png",
+    "static/media/frontpagebg.png": "/static/media/frontpagebg.3ba9ffe5be730371d729.png",
+    "static/media/portfolio img.png": "/static/media/portfolio img.ce17965acf23367f8e7f.png",
     "static/media/myimage2.jpg": "/static/media/myimage2.781c4d7d24b91cf24fc9.jpg",
     "static/media/Parcelyogi.png": "/static/media/Parcelyogi.72428e7b1d0bd08fdd4d.png",
+    "static/media/Ecommercepage.png": "/static/media/Ecommercepage.0213e4c2a2a28351ae05.png",
+    "static/media/wetherapplicationpage.png": "/static/media/wetherapplicationpage.3473b73369d54a6708ec.png",
     "static/media/Wallclock.png": "/static/media/Wallclock.55562e276f8dddc1890b.png",
     "static/media/Registration.png": "/static/media/Registration.383b96d3720bfea9de76.png",
     "static/media/form validations.png": "/static/media/form validations.46ecd15c03e31f01275f.png",
     "static/media/Making circles on browser.png": "/static/media/Making circles on browser.d43c37140ec934b9a0df.png",
     "index.html": "/index.html",
-    "main.77368bbc.css.map": "/static/css/main.77368bbc.css.map",
-    "main.f290f6b7.js.map": "/static/js/main.f290f6b7.js.map",
+    "main.f9b41fa4.css.map": "/static/css/main.f9b41fa4.css.map",
+    "main.7703fbf7.js.map": "/static/js/main.7703fbf7.js.map",
     "453.612510cc.chunk.js.map": "/static/js/453.612510cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77368bbc.css",
-    "static/js/main.f290f6b7.js"
+    "static/css/main.f9b41fa4.css",
+    "static/js/main.7703fbf7.js"
   ]
 }
